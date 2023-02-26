@@ -1,0 +1,141 @@
+body{
+  background-color: #0002;
+  height:100Vh;
+}
+
+.logIn{
+  text-align: center;
+  flex-direction: column;
+  margin-top:20%;
+}
+
+.sendMsg{
+ display: flex;
+ 
+}
+
+.submit{
+  position:fixed;
+  margin-bottom:30px;
+  z-index:10;
+  bottom:0;
+  left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  background-color: #333;
+  opacity:0.5;
+  width: 50%;
+  height:50px;
+}
+
+
+.msg{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.msg img{
+  width:50px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.sent h3{
+  margin:16px 5px 16px 0px;
+  width:100%;
+  text-align: right;
+}
+
+.recieved h3{
+  margin:10px 0 16px 5px;
+  width:100%;
+}
+
+
+
+
+.msg p{
+  background-color: white;
+  padding:10px;
+  border-radius: 10px;
+  margin:0 auto 0 50px;
+}
+
+.sent{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.sent img{
+  margin-left:10px;
+  margin-left: auto;
+}
+
+.recieved{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.recieved img{
+  margin-right:10px;
+  margin-right: auto;
+}
+
+
+.sent p{
+  background-color: rgb(43, 177, 43);
+  flex-wrap: wrap;
+  margin:0 50px 0 auto;
+}
+
+.line{
+  margin:0 100px;
+}
+
+
+#jamp{
+  height:150px;
+  display:block;
+}
+
+@media screen and (max-width: 600px) {
+
+  .sendMsg{
+    display: flex;
+    justify-content: center;
+   }
+
+  .submit{
+    position:fixed;
+    margin-bottom:30px;
+    z-index:10;
+    bottom:0;
+    left:0;
+    background-color: #333;
+    opacity:0.5;
+    width: 100%;
+    height:50px;
+    transform:none;
+  }
+
+  .logIn{
+    margin-top:50%;
+  }
+  
+.logIn h1{
+  font-size: 18px;
+}
+
+.line{
+  margin:0 20px;
+}
+  
+}
+
