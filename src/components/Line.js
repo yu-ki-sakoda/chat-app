@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import { db } from '../firebase'
-import auth from "../firebase"
+import { auth, db } from '../firebase'
 import { SendMessage } from './SendMessage';
 import { SignOut } from './SignOut'
 

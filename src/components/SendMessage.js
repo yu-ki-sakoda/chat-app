@@ -1,8 +1,8 @@
 import { Input } from '@mui/material'
 import React, { useState } from 'react'
 import firebase from "firebase/compat/app";
-import { db } from '../firebase'
-import auth from "../firebase"
+import { db,auth } from '../firebase'
+
 
 export const SendMessage = () => {
 
