@@ -3,12 +3,12 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyAO2mJdWe0hkH3-vvqnMDKvBNtWkcpfqHw",
-  authDomain: "line-45a67.firebaseapp.com",
-  projectId: "line-45a67",
-  storageBucket: "line-45a67.appspot.com",
-  messagingSenderId: "506949087604",
-  appId: "1:506949087604:web:8c022ae089db7099223c21"
+  apiKey: process.env.PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.PUBLIC_FIREBASE_APP_ID
 });
 
 const auth = firebase.auth();
